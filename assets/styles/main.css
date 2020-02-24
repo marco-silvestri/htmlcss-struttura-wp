@@ -1,0 +1,82 @@
+/* Utilities */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+/* Definining template size */
+
+header, main {
+  margin: 0 auto;
+  width: 85vw;
+}
+
+/* Header styling */
+
+#hero {
+  height: 50vh;
+  background-color: #4287f5;
+  border: 10px solid #000;
+}
+
+.navmenu {
+  height: 8vh;
+  background-color: #555;
+}
+
+.navmenu ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+/* columns styling */
+
+.column {
+  float: left;
+}
+
+.center{
+  width: 60%;
+}
+
+.side {
+  width: 20%;
+}
+
+/* left column content */
+
+.rss-feed {
+  background-color: #f5d442;
+  height: 30vh;
+}
+
+/* center column content */
+
+.post {
+  background-color: #8af542;
+  height: 50vh;
+}
+
+/* right column content */
+
+.widget {
+  height: 30vh;
+}
+
+/* alternating colors */
+
+.widget:nth-of-type(2n+1) {
+  background-color: #CCC;
+}
+
+.widget:nth-of-type(2n+2) {
+  background-color: #000;
+}
