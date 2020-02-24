@@ -13,7 +13,9 @@
 
 /* Definining template size */
 
-header, main, footer {
+header,
+main,
+footer {
   margin: 0 auto;
   width: 85vw;
 }
@@ -72,6 +74,9 @@ header, main, footer {
 
 .widget {
   height: 50vh;
+}
+
+.widget:not(:last-child) {
   margin-bottom: 5vh;
 }
 
@@ -89,6 +94,7 @@ header, main, footer {
 
 footer {
   padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 
 .contacts {
@@ -100,4 +106,13 @@ footer {
   display: inline-block;
   text-align: center;
   list-style: none;
+}
+
+/* COMMON Styles */
+
+.rss-feed,
+.post,
+.widget,
+.contacts {
+    border-radius: 5px;
 }
