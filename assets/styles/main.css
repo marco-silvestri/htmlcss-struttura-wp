@@ -13,7 +13,7 @@
 
 /* Definining template size */
 
-header, main {
+header, main, footer {
   margin: 0 auto;
   width: 85vw;
 }
@@ -22,13 +22,13 @@ header, main {
 
 #hero {
   height: 50vh;
-  background-color: #4287f5;
+  background: #4287f5;
   border: 10px solid #000;
 }
 
 .navmenu {
   height: 8vh;
-  background-color: #555;
+  background: #555;
 }
 
 .navmenu ul li {
@@ -54,21 +54,21 @@ header, main {
 /* left column content */
 
 .rss-feed {
-  background-color: #f5d442;
-  height: 30vh;
+  background: #f5d442;
+  height: 60vh;
 }
 
 /* center column content */
 
 .post {
-  background-color: #8af542;
+  background: #8af542;
   height: 50vh;
 }
 
 /* right column content */
 
 .widget {
-  height: 30vh;
+  height: 50vh;
 }
 
 /* alternating colors */
@@ -79,4 +79,17 @@ header, main {
 
 .widget:nth-of-type(2n+2) {
   background-color: #000;
+}
+
+/* footer styling */
+
+.contacts {
+  height: 20vh;
+  background: #f54284;
+}
+
+.contacts ul li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
 }
