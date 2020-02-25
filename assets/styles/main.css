@@ -123,8 +123,34 @@ header {
 /* left column content */
 
 .rss-feed {
-  background: #f5d442;
-  height: 60vh;
+  background: #fff;
+}
+
+.rss-feed-icon {
+  display: inline-block;
+  float: left;
+  background-color: #f26522;
+  font-size: 1em;
+  text-align: center;
+  color: #FFF;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.rss-feed ul {
+  list-style: none;
+  padding-inline-start: 5px;
+}
+
+.rss-feed li {
+  padding-top: 5px;
+}
+
+.rss-feed a {
+  text-decoration: none;
+  color: #32a852;
 }
 
 /* center column content */
@@ -177,6 +203,7 @@ footer {
 /* COMMON Styles */
 
 .rss-feed,
+.rss-feed-icon,
 .post,
 .widget,
 .contacts {
