@@ -17,7 +17,7 @@ header,
 main,
 footer {
   margin: 0 auto;
-  width: 70vw;
+  width: 65vw;
 }
 
 h1,
@@ -46,7 +46,7 @@ body {
 /* Header styling */
 
 header {
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 #hero {
@@ -145,7 +145,7 @@ header {
 }
 
 .rss-feed li {
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .rss-feed a {
@@ -156,8 +156,20 @@ header {
 /* center column content */
 
 .post {
-  background: #8af542;
-  height: 50vh;
+  background: #FFF;
+}
+
+.post h2 {
+  text-transform: uppercase;
+  text-shadow: 2px 2px #CCC;
+  padding-top: 5%;
+  padding-left: 5%;
+}
+
+.post p {
+
+  padding: 5%;
+  line-height: 1.5em;
 }
 
 /* right column content */
