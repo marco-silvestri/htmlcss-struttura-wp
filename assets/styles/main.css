@@ -20,6 +20,18 @@ footer {
   width: 85vw;
 }
 
+h1,
+h2,
+.navmenu li {
+  font-family: 'Montserrat', ;
+}
+
+p,
+.copyright {
+  font-family: 'Roboto', ;
+}
+
+
 /* Header styling */
 
 #hero {
@@ -102,10 +114,12 @@ footer {
   background: #f54284;
 }
 
-.contacts ul li {
+.social li {
+  width: calc(100%/3);
   display: inline-block;
   text-align: center;
   list-style: none;
+  float: left;
 }
 
 /* COMMON Styles */
