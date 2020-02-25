@@ -99,7 +99,12 @@ header h1{
   padding: 14px 16px;
 }
 
-/* If hover FX is on , can't center the menu !!! Also restore clearfix on navmenu call
+.navmenu a:hover {
+  color: #555;
+  background-color: #FFF;
+}
+
+/* If hover border FX is on , can't center the menu !!! Also restore clearfix on navmenu call
 
 .navmenu a {
   display: block;
