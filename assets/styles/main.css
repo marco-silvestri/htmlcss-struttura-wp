@@ -17,13 +17,20 @@ header,
 main,
 footer {
   margin: 0 auto;
-  width: 85vw;
+  width: 70vw;
 }
 
 h1,
 h2,
 .navmenu li {
-  font-family: 'Montserrat', ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header h1 {
+  display: block;
+  color: #FFF;
+  text-transform: uppercase;
+  padding-bottom: 10%;
 }
 
 p,
@@ -31,25 +38,70 @@ p,
   font-family: 'Roboto', ;
 }
 
+body {
+  background-image: url('../img/background-pagina.png');
+  background-position: center;
+}
 
 /* Header styling */
 
+header {
+  margin-top: 3%;
+}
+
 #hero {
-  height: 50vh;
-  background: #4287f5;
-  border: 10px solid #000;
+  border: 10px solid #FFF;
+  text-align: center;
+  height: 60vh;
+  min-height: 400px;
+  background-image: url('../img/background-banner.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 50%;
+  margin-top: 5%;
 }
 
 .navmenu {
-  height: 8vh;
   background: #555;
+  text-align: center;
+  line-height: 6vh;
 }
 
 .navmenu ul li {
   display: inline-block;
-  text-align: center;
   list-style: none;
 }
+
+.navmenu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  font-weight: bold;
+  color: #FFF;
+  padding: 14px 16px;
+}
+
+/* If hover FX is on , can't center the menu !!! Also restore clearfix on navmenu call
+
+.navmenu a {
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  font-weight: bold;
+  color: #FFF;
+  padding: 14px 16px;
+  border-bottom: 3px solid transparent;
+}
+
+.navmenu ul li a:hover {
+    border-bottom: 3px solid #FFF;
+}*/
 
 /* columns styling */
 
