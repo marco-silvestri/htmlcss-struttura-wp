@@ -35,7 +35,17 @@ header h1 {
 
 p,
 .copyright {
-  font-family: 'Roboto', ;
+  font-family: 'Roboto', sans-serif ;
+}
+
+h2,
+p {
+  padding: 20px;
+}
+
+.post p,
+.widget p {
+  line-height: 1.5em;
 }
 
 body {
@@ -139,13 +149,18 @@ header {
   margin: 5px;
 }
 
+
+.rss-feed h2 {
+    padding: 5%;
+}
+
 .rss-feed ul {
   list-style: none;
   padding-inline-start: 5px;
 }
 
 .rss-feed li {
-  padding-top: 10px;
+  padding: 5px 0;
 }
 
 .rss-feed a {
@@ -162,34 +177,16 @@ header {
 .post h2 {
   text-transform: uppercase;
   text-shadow: 2px 2px #CCC;
-  padding-top: 5%;
-  padding-left: 5%;
-}
-
-.post p {
-
-  padding: 5%;
-  line-height: 1.5em;
 }
 
 /* right column content */
 
 .widget {
-  height: 50vh;
+  background-color: #FFF;
 }
 
 .widget:not(:last-child) {
   margin-bottom: 5vh;
-}
-
-/* alternating colors */
-
-.widget:nth-of-type(2n+1) {
-  background-color: #CCC;
-}
-
-.widget:nth-of-type(2n+2) {
-  background-color: #000;
 }
 
 /* footer styling */
