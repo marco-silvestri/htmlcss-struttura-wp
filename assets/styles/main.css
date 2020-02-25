@@ -59,15 +59,19 @@ header {
   margin-top: 1%;
 }
 
+header h1{
+  font-size: 1.5em;
+}
+
 #hero {
   border: 10px solid #FFF;
   text-align: center;
-  height: 60vh;
+  height: 50vh;
   min-height: 400px;
   background-image: url('../img/background-banner.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 
 .logo {
@@ -137,20 +141,18 @@ header {
 }
 
 .rss-feed-icon {
-  display: inline-block;
   float: left;
-  background-color: #f26522;
-  font-size: 1em;
-  text-align: center;
-  color: #FFF;
-  height: 30px;
-  width: 30px;
-  padding: 5px;
-  margin: 5px;
+  display: inline-block;
+  margin: 10px;
 }
 
+.rss-feed i {
+  font-size: 35px;
+  color: #f26522;
+}
 
-.rss-feed h2 {
+.rss-feed h2,
+.rss-feed i {
     padding: 5%;
 }
 
@@ -197,24 +199,36 @@ footer {
 }
 
 .contacts {
-  height: 20vh;
-  background: #f54284;
+  text-align: center;
+  color: #CCC;
+  background: #FFF;
+}
+
+.copyright {
+  padding-top: 5px;
+  border-bottom: 1px solid #CCC;
 }
 
 .social li {
-  width: calc(100%/3);
   display: inline-block;
-  text-align: center;
-  list-style: none;
   float: left;
+  width: calc(100%/3);
+  list-style: none;
+  margin: 25px 0px;
 }
 
-/* COMMON Styles */
+.social a {
+  color: #CCC;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+/* Border Styles */
 
 .rss-feed,
 .rss-feed-icon,
 .post,
 .widget,
 .contacts {
-    border-radius: 5px;
+  border-radius: 5px;
 }
